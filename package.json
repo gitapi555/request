@@ -1,5 +1,5 @@
 {
-  "name": "request",
+  "name": "@api555/request",
   "description": "Simplified HTTP request client.",
   "keywords": [
     "http",
@@ -11,10 +11,10 @@
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/request/request.git"
+    "url": "https://github.com/gitapi555/request"
   },
   "bugs": {
-    "url": "http://github.com/request/request/issues"
+    "url": "https://github.com/gitapi555/request/issues"
   },
   "license": "Apache-2.0",
   "engines": {
@@ -27,6 +27,7 @@
     "request.js"
   ],
   "dependencies": {
+    "@api555/tunnel-agent": "~0.1.0",
     "aws-sign2": "~0.7.0",
     "aws4": "^1.8.0",
     "caseless": "~0.12.0",
@@ -45,7 +46,6 @@
     "qs": "~6.5.2",
     "safe-buffer": "^5.1.2",
     "tough-cookie": "~2.5.0",
-    "tunnel-agent": "^0.6.0",
     "uuid": "^3.3.2"
   },
   "scripts": {
